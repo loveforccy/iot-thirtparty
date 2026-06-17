@@ -1,0 +1,13 @@
+prefix=/home/cuichenyang/Project/AI/iot-thirtparty/install
+exec_prefix=/home/cuichenyang/Project/AI/iot-thirtparty/install
+libdir=/home/cuichenyang/Project/AI/iot-thirtparty/install/lib
+sharedlibdir=/home/cuichenyang/Project/AI/iot-thirtparty/install/lib
+includedir=/home/cuichenyang/Project/AI/iot-thirtparty/install/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
